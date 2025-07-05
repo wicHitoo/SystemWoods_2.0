@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    color: rgb(219, 5, 5);
+    /* font-family: Inter; */
+    margin: 0;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    color: rgb(181, 17, 5);
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(206, 44, 7);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(200, 53, 4);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(212, 37, 6);
+    color: black;
+}
+
+.menu-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    display: none; /* Ocultar el botón en pantallas grandes */
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Resta el alto de la navegación para centrar el contenido */
+    width: 100%;
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(238, 228, 25);
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+}
+
+h1 {
+    color: rgb(234, 12, 12);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: rgb(227, 7, 7);
+    padding: 10px 20px;
+    border: 2px solid rgb(206, 39, 13);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(183, 5, 5);
+    color: black;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    nav h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .menu-button {
+        display: block; /* Mostrar el botón en pantallas pequeñas */
+    }
+
+    /* Ocultar los enlaces del menú en pantallas pequeñas */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
+
+/* Estilos para el botón del menú */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el icono de menú */
+.menu-icon {
+    margin-right: 5px; /* Ajuste el espacio entre el icono y el texto */
+}
+
+/* Estilos para mostrar solo el icono de menú en pantallas más pequeñas */
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+}
+    
