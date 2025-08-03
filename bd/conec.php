@@ -144,6 +144,10 @@ class BD
 		return $stmt->execute();
 	}
 
-
-
+	public function agregarSensibilidades( $idusuario, $idmarca, $fecha ,$sensibilidad) {
+		$sql = "INSERT INTO sensibilidades (_usuario, _modelo, fecha, sensibilidad) VALUES (?, ?, ?, ?)	;";
+		$stmt = $this->conn->prepare($sql);
+		$stmt->bind_param('iiss', $idusuario, $idmarca,  $fecha, $sensibilidad);
+		return $stmt->execute();
+	}
 }

@@ -1,4 +1,5 @@
 <?php include("revisa_sesion.php");?>
+
 <?php
 require('./bd/get_models_premium.php');
 ?>
@@ -38,7 +39,7 @@ require('./bd/get_models_premium.php');
   <div class="row align-items-center">
            <div class="col-12 col-md-8">
            <div class="container-form">
-                <h1>SENSIBILIDADES WOODS_FF</h1>
+                <h1>SENSIBILIDADES WOODS_FF <?php echo json_encode($idUsuario); ?></h1>
                 
                     <div class="form-group">
                 <!-- Reemplazamos el select por un datalist -->
@@ -84,6 +85,10 @@ require('./bd/get_models_premium.php');
      <!-- Enlace al archivo JS -->
 <?php include('./templates/piepagina.php'); ?>
 <script src="assets/js/main.js"></script> 
+<script>
+  const USER_ID = <?php echo json_encode($idUsuario); ?>;
+</script>
+
 <script src="assets/js/scriptPremium.js"></script>
 <script src="assets/js/closesesion.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

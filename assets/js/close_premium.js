@@ -16,13 +16,6 @@ document.querySelectorAll('a').forEach(link => {
   });
 });
 
-// Detectar cierre de ventana y enviar solicitud para actualizar el estado
-// window.addEventListener("beforeunload", function (e) {
-//   if (!isNavigatingInternally) {
-//     navigator.sendBeacon('./logout.php', JSON.stringify({ logout: true }));
-//   }
-// });
-
 
 setInterval(() => {
   fetch('./actualizar_actividad.php', { method: 'POST' })

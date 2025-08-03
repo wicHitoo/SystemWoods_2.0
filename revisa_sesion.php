@@ -2,7 +2,7 @@
 session_start();
 
 $inactividad = 300; // 7 minutos
-
+$idUsuario = isset($_SESSION['id_usuario']) ? $_SESSION['id_usuario'] : null;
 // Verificar si la sesión está activa
 if (!isset($_SESSION['email'])) {
     // Si la sesión no está activa, redirigir al usuario a la página de inicio de sesión

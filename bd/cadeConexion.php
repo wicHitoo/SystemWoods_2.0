@@ -1,13 +1,20 @@
 <?php
-class Database {
-    private $host = "localhost";
-    private $username = "u217817257_AdmWoods";
-    private $password = "2|Ffk6QU#*";
-    private $dbname = "u217817257_BDSystemWoods";
-    //private $port = 3306;
+class Database
+{
+    // private $host = "localhost";
+    // private $username = "u217817257_AdmWoods";
+    // private $password = "2|Ffk6QU#*";
+    // private $dbname = "u217817257_BDSystemWoods";
+    // //private $port = 3306;
+    // private $connection;
+    private $host = "127.0.0.1";
+    private $username = "root";
+    private $password = "";
+    private $dbname = "systemwoods";
+    private $port = 3306;
     private $connection;
-
-    public function connect() {
+    public function connect()
+    {
         if (!$this->connection) {
             $this->connection = new mysqli($this->host, $this->username, $this->password, $this->dbname);
 
@@ -18,7 +25,8 @@ class Database {
         return $this->connection;
     }
 
-    public function disconnect() {
+    public function disconnect()
+    {
         if ($this->connection) {
             $this->connection->close();
             $this->connection = null;
@@ -35,4 +43,3 @@ class Database {
         return $conn;
     }
 }
-?>
