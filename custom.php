@@ -66,10 +66,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">woods</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">woods</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -86,10 +87,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -113,10 +115,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -134,10 +137,11 @@
                 </ul>
                 <!-- Copiar código -->
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
 
@@ -165,10 +169,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -186,10 +191,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -216,10 +222,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -236,10 +243,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -265,10 +273,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -286,10 +295,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -315,10 +325,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -336,10 +347,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -365,10 +377,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -386,10 +399,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -415,10 +429,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -436,10 +451,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                  <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -465,10 +481,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -486,10 +503,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -515,10 +533,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -536,10 +555,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -565,10 +585,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
         </div>
@@ -586,10 +607,11 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code id="codigoHUD" style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
-                    <button onclick="copiarCodigo()" style="border: none; background: none; cursor: pointer;" title="Copiar">
-                        <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
-                    </button>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                   <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
+  <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
+</button>
+
                 </div>
             </div>
             <div class="col-lg-6 order-2 order-lg-1">
@@ -601,32 +623,33 @@
 </section><!-- /About Section -->
 <?php include('./templates/piepagina.php'); ?>
 <script>
-    function copiarCodigo() {
-        const texto = document.getElementById("codigoHUD").innerText;
-        navigator.clipboard.writeText(texto).then(() => {
-            Swal.fire({
-                toast: true,
-                position: 'top-end',
-                icon: 'success',
-                title: '¡Código copiado!',
-                showConfirmButton: false,
-                timer: 1500,
-                timerProgressBar: true,
-                background: '#f0f0f0',
-                color: '#333'
-            });
-        }).catch(err => {
-            console.error("Error al copiar: ", err);
-            Swal.fire({
-                toast: true,
-                position: 'top-end',
-                icon: 'error',
-                title: 'Error al copiar',
-                showConfirmButton: false,
-                timer: 1500
-            });
-        });
-    }
+    function copiarCodigo(btn) {
+  const codigo = btn.previousElementSibling.innerText;
+  navigator.clipboard.writeText(codigo).then(() => {
+    Swal.fire({
+      toast: true,
+      position: 'top-end',
+      icon: 'success',
+      title: '¡Código copiado!',
+      showConfirmButton: false,
+      timer: 1500,
+      timerProgressBar: true,
+      background: '#f0f0f0',
+      color: '#333'
+    });
+  }).catch(err => {
+    console.error("Error al copiar: ", err);
+    Swal.fire({
+      toast: true,
+      position: 'top-end',
+      icon: 'error',
+      title: 'Error al copiar',
+      showConfirmButton: false,
+      timer: 1500
+    });
+  });
+}
+
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

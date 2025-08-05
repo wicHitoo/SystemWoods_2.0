@@ -12,6 +12,18 @@ document.addEventListener("DOMContentLoaded", function () {
   deviceTypeSelect.addEventListener('change', cargarModelosPorMarca);
 
  function generateSensitivities() {
+  // Validar cantidad de sensibilidades generadas esta sesión
+  let generadas = parseInt(sessionStorage.getItem("sensCount") || "0");
+  if (generadas >= 20) {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Límite alcanzado',
+      text: 'Solo puedes generar hasta 20 sensibilidades por sesión.',
+      confirmButtonText: 'Entendido'
+    });
+    return;
+  }
+
   const deviceType = deviceTypeSelect.value.trim();
   const screenSize = screenSizeSelect.value.trim();
 
@@ -78,11 +90,14 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(data => {
       console.log("Respuesta del servidor:", data);
       if (data.success) {
+        // Incrementar contador de sensibilidades generadas
+        sessionStorage.setItem("sensCount", (generadas + 1).toString());
+
         Swal.fire({
           toast: true,
           position: 'top-end',
           icon: 'success',
-          title: 'Sensibilidad guardada correctamente',
+          title: `Sensibilidad guardada correctamente (${generadas + 1}/20)`,
           showConfirmButton: false,
           timer: 1500,
           timerProgressBar: true,

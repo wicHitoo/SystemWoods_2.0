@@ -1,9 +1,19 @@
 function cerrarSesion() {
-    fetch('./logout.php', { method: 'POST' })
-        .then(() => {
-            window.location.href = './index.php';
-        })
-        .catch(err => console.error('Error al cerrar sesión:', err));
+    try {
+        fetch('./logout.php', {
+            method: 'POST'
+        });
+        // 3. Redirigir al login o a página de inicio
+        window.location.href = './index.php';
+    }
+    catch (error) {
+        console.error("Error al actualizar estados o cerrar sesión:", error);
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'No se pudo cerrar sesión correctamente.'
+        });
+    }
 }
 
 let isNavigatingInternally = false;
@@ -16,12 +26,6 @@ document.querySelectorAll('a').forEach(link => {
     });
 });
 
-// Detectar cierre de ventana y enviar solicitud para actualizar el estado
-//window.addEventListener("beforeunload", function () {
-  //  if (!isNavigatingInternally) {
-//        navigator.sendBeacon('./logout.php');
- //   }
-//});
 setInterval(() => {
     fetch('./actualizar_actividad.php', { method: 'POST' })
         .catch(err => console.error('Error al actualizar la actividad:', err));
