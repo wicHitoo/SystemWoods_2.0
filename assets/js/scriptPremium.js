@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
  function generateSensitivities() {
   // Validar cantidad de sensibilidades generadas esta sesión
   let generadas = parseInt(sessionStorage.getItem("sensCount") || "0");
-  if (generadas >= 20) {
+  if (generadas >= 30) {
     Swal.fire({
       icon: 'warning',
       title: 'Límite alcanzado',
-      text: 'Solo puedes generar hasta 20 sensibilidades por sesión.',
+      text: 'Solo puedes generar hasta 30 sensibilidades. Para generar más, tienes que esperar una hora.',
       confirmButtonText: 'Entendido'
     });
     return;
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
           toast: true,
           position: 'top-end',
           icon: 'success',
-          title: `Sensibilidad guardada correctamente (${generadas + 1}/20)`,
+          title: `Sensibilidad guardada correctamente (${generadas + 1}/30)`,
           showConfirmButton: false,
           timer: 1500,
           timerProgressBar: true,
