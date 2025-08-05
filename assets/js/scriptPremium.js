@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Swal.fire({
       icon: 'warning',
       title: 'Límite alcanzado',
-      text: 'Solo puedes generar hasta 30 sensibilidades. Para generar más, tienes que esperar una hora.',
+      text: 'Solo puedes generar hasta 30 sensibilidades. Para generar más, cierra tu sesión y vuelve en una hora.',
       confirmButtonText: 'Entendido'
     });
     return;
