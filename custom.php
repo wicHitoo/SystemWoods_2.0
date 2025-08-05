@@ -87,7 +87,7 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">PROXIMAMENTE</code>
                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
   <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
 </button>
@@ -115,7 +115,7 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">PROXIMAMENTE</code>
                     <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
   <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
 </button>
@@ -137,7 +137,7 @@
                 </ul>
                 <!-- Copiar código -->
                 <div style="margin-top: 10px;">
-                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">PROXIMAMENTE</code>
                    <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
   <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
 </button>
@@ -169,7 +169,7 @@
 
                 </ul>
                 <div style="margin-top: 10px;">
-                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">FF-HUD-123</code>
+                    <code  style="font-size: 16px; background: #eee; padding: 5px 10px; border-radius: 6px;">PROXIMAMENTE</code>
                     <button onclick="copiarCodigo(this)" style="border: none; background: none; cursor: pointer;" title="Copiar">
   <i class="bi bi-clipboard" style="font-size: 20px; color: #ffee00ff;"></i>
 </button>
