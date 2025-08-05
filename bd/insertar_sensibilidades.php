@@ -12,7 +12,7 @@ try {
     $objBD = new BD();
     $userId = $_SESSION['id_usuario'];
     $modeloid = $_POST["_modelo"];
-    $fecha = $_POST["fecha"];
+    $fecha = $_SESSION['tiempo'];
     $sensibilidades = $_POST["sensibilidad"];
 
     if ($objBD->agregarSensibilidades($userId, $modeloid, $fecha, $sensibilidades)) {

@@ -1,9 +1,9 @@
 <?php
 session_start();
 if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com') {
-    // Si no es el administrador, redirige al usuario a la página de inicio
-    header("Location:custom.php");
-    exit();
+  // Si no es el administrador, redirige al usuario a la página de inicio
+  header("Location:custom.php");
+  exit();
 }
 ?>
 <!DOCTYPE html>
@@ -39,16 +39,15 @@ if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com')
       <br><br>
       <h2 class="text-center mb-4">Lista de Usuarios</h2>
       <div class="d-flex justify-content-end mb-3">
-  <a href="registros.php" class="btn btn-success me-2">
-    <i class="bi bi-plus-circle"></i>
-    <span class="d-none d-sm-inline">Agregar</span>
-  </a>
-   <form action="./bd/updateestado.php" method="post">
-  <button class="btn btn-warning">
-    <i class="bi bi-arrow-clockwise"></i>
-    <span class="d-none d-sm-inline">Actualizar</span>
-  </button></form>
-</div>
+        <a href="registros.php" class="btn btn-success me-2">
+          <i class="bi bi-plus-circle"></i>
+          <span class="d-none d-sm-inline">Agregar</span>
+        </a>
+        <button class="btn btn-warning" onclick="actualizarYSalir()">
+          <i class="bi bi-arrow-clockwise"></i>
+          <span class="d-none d-sm-inline">Actualizar</span>
+        </button>
+      </div>
 
 
       <div class="table-responsive">
@@ -57,7 +56,6 @@ if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com')
           <thead class="table-dark">
             <tr>
               <th>Correo</th>
-              
               <th>Activo</th>
               <th>Teléfono</th>
               <th>Última Conexión</th>
@@ -73,15 +71,15 @@ if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com')
             while ($u = $usuarios->fetch_assoc()) {
               echo "<tr>";
               echo "<td>" . htmlspecialchars($u["correo"]) . "</td>";
-             
+
               echo "<td>";
               if ($u["estadoActivo"] == 1) {
-                  echo '<i class="bi bi-check-circle text-success"></i>';
+                echo '<i class="bi bi-check-circle text-success"></i>';
               } else {
-                  echo '<i class="bi bi-x-circle text-danger"></i>';
+                echo '<i class="bi bi-x-circle text-danger"></i>';
               }
               echo "</td>";
-              
+
               echo "<td>" . htmlspecialchars($u["telefono"]) . "</td>";
               echo "<td>" . htmlspecialchars($u["ultimaActividad"]) . "</td>";
               echo "<td>" . htmlspecialchars($u["ultimoIntento"]) . "</td>";
@@ -89,6 +87,7 @@ if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com')
                   <div class="btn-group" role="group">
                     <a onclick="eliminarUsuario(' . htmlspecialchars($u["id"]) . ')" class="btn btn-danger"><i class="bi bi-trash"></i></a>
                     <a onclick="editUser(' . htmlspecialchars($u["id"]) . ')" class="btn btn-warning"><i class="bi bi-pencil"></i></a>
+                    <a onclick="verSensibilidades(' . htmlspecialchars($u["id"]) . ')" class="btn btn-info"><i class="bi bi-eye"></i></a>
                   </div>
                 </td>';
               echo "</tr>";
@@ -104,8 +103,12 @@ if (!isset($_SESSION['email']) || $_SESSION['email'] !== 'woodsAdmin@gmail.com')
   </section>
 
   <!-- SweetAlert2 JS -->
-  
+
   <?php include('./templates/piepagina.php'); ?>
+  <script>
+    window.USER_ID = <?= $_SESSION['id_usuario'] ?? 'null' ?>;
+  </script>
+  <script src="assets/js/scriptPremium.js"></script>
   <script src="assets/js/close_premium.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

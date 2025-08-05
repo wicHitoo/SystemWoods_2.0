@@ -150,4 +150,22 @@ class BD
 		$stmt->bind_param('iiss', $idusuario, $idmarca,  $fecha, $sensibilidad);
 		return $stmt->execute();
 	}
+
+	
+	function selectSensi($idusuario) {
+    $sql = "
+        SELECT 
+            m.Nombre AS modelo,
+            ma.Nombre AS marca,
+            s.sensibilidad 
+        FROM sensibilidades AS s 
+        INNER JOIN modelocelular AS m ON s._modelo = m.idmodelocelular 
+        INNER JOIN marcacelular AS ma ON m.MarcaID = ma.idmarcacelular 
+        WHERE s._usuario = $idusuario 
+		ORDER BY s.fecha DESC
+        ;
+    ";
+    $result = $this->conn->query($sql);
+    return $result;
+}
 }

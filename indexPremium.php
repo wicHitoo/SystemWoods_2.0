@@ -39,7 +39,7 @@ require('./bd/get_models_premium.php');
   <div class="row align-items-center">
            <div class="col-12 col-md-8">
            <div class="container-form">
-                <h1>SENSIBILIDADES WOODS_FF <?php echo json_encode($idUsuario); ?></h1>
+                <h1>SENSIBILIDADES WOODS_FF</h1>
                 
                     <div class="form-group">
                 <!-- Reemplazamos el select por un datalist -->
@@ -67,7 +67,7 @@ require('./bd/get_models_premium.php');
                         
                     </div>
                     <div class="form-group">
-                    <button id="generateBtn">Generar sensibilidad</button>
+                    <button id="generateBtn" type="button">Generar sensibilidad</button>
                     </div>
                     <section class="container my-5">
                     <div class="form-group">

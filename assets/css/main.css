@@ -55,7 +55,7 @@ body {
 }
 
 a {
-  color: yellow;
+  color: #ff0000; /* Default link color */
   text-decoration: none;
   transition: 0.3s;
 }
@@ -109,7 +109,7 @@ h6 {
 }
 
 .header .logo span {
-  color: yellow;
+  color: #ff0000;
   font-size: 32px;
 }
 
@@ -122,13 +122,13 @@ h6 {
   border-radius: 4px;
   transition: 0.3s, color 0.3s; 
   background-color: transparent;
-  border: 2px solid yellow;
+  border: 2px solid #ff0000;
 }
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: black; 
-  background-color: yellow;
+  background-color: #ff0000;
 }
 
 @media (max-width: 1200px) {
@@ -213,7 +213,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color:yellow;
+    color:#ff0000;
   }
 
   .navmenu .dropdown ul {
@@ -414,7 +414,7 @@ h6 {
 .yellow-line {
   border: 0;
   height: 2px; /* Ajusta la altura según tus necesidades */
-  background-color: #dcc428; /* Amarillo brillante */
+  background-color: #ff0000;/* Amarillo brillante */
   margin: 20px 0; /* Ajusta los márgenes según tus necesidades */
   opacity: 5;
 }
@@ -437,12 +437,12 @@ h6 {
   font-family: Inter;
 }
 .footer-terms {
-  background:yellow;
+  background:#ff0000;;
   color:rgb(0, 0, 0);
   font-size: 18px;
   padding: 0.8rem;
   font-weight: 400;
-  font-family: Inter;
+  font-family: Inter;
 }
 .resized-image {
   padding-top: 1.2rem;
@@ -461,7 +461,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: yellow;
+  background-color: #ff0000;;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -538,7 +538,7 @@ h6 {
 }
 
 .blog-posts .title a:hover {
-  color: yellow;
+  color: #ff0000;;
 }
 
 
@@ -747,7 +747,7 @@ h6 {
 }
 
 .about .content ul i {
-  color: yellow;
+  color: #ff0000;;
   margin-right: 0.5rem;
   line-height: 1.2;
   font-size: 1.25rem;
@@ -767,19 +767,7 @@ h6 {
 }
 
 
-/* .btn {
-  border-radius: 30px;
-  background-color: greenyellow;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-  color: black;
-} */
-.btn:hover {
-  background-color: #9b59b6;
-  color: #fff;
-}
+
 
 .marquee-container {
   width: 100%;
@@ -803,7 +791,7 @@ h6 {
   display: inline-block;
   margin-right: 50px;
   font-size: 18px;
-  color: #e6d624;
+  color: #ff0000;
 }
 
 @keyframes marquee {
@@ -1004,20 +992,20 @@ padding-left: 1rem !important;
 /* Fondo negro para el popup */
 .custom-popup {
   background-color: black !important;
-  color: yellow !important;
+  color: red !important;
   border-radius: 10px;
 }
 
 /* Estilo amarillo para el título */
 .custom-title {
-  color: yellow !important;
+  color: red !important;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 /* Estilo amarillo para el contenido HTML */
 .custom-html {
-  color: yellow !important;
+  color: red !important;
   font-size: 1rem;
 }
 
